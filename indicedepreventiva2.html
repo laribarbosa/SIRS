@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+   <head>
+         <meta charset="utf-8"/>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>SIRS</title>
+         <link rel="shortcut icon" href="D:\Projeto Salete\Imagens\logosaleteaba.png">
+         <link rel="stylesheet" href="css/normalize.css"/>
+         <link href = "https://fonts.googleapis.com/css?family= Abril + Fatface & display = swap" rel = "stylesheet">
+         <link rel="stylesheet" href="css/estilo.css"/>
+      <style>
+		    *{
+		    	padding: 0;
+		    	margin: 0;
+		    	box-sizing: border-box;
+		    	font-family: 'Times New Roman';
+		    }
+
+		    body{
+		    	width: 100vw;
+		    	height: 100vh;
+		    	display: flex;
+		    	position: absolute;
+				justify-content: center;
+		    	align-items: center;
+		    	background-image: url("D:/Projeto Salete/Imagens/fundoazul.jpg");
+		    	background-position: 50px 0px; /*direita*/
+            background-position: 30px 0px; /*centro*/
+            background-position: 70px 0%; /*esquerda*/
+			}
+
+			header{
+				position: absolute;
+				bottom: 0;
+            top: 10px;
+            left: 10px;
+            width: 300px;
+				height: 90px;
+            float: left;
+				width: 100px;
+				height: 100px;
+			}
+
+			h1 {
+		  	   position:absolute; 
+		  	   left:50%;
+            transform: translate(-180%, 0%);/*(vertical,horizontal)*/	
+			   text-align: center;
+            margin: 0;
+            top: 20px;		
+			}
+
+			h2 {
+		  	   position:absolute; 
+		  	   left:50%;
+            transform: translate(-50%, 0%);/*(vertical,horizontal)*/				
+			   text-align: center;
+            margin: 0;
+            top: 20px;		
+			}
+
+			h3 {
+		  	   position:absolute; 
+            left:50%;
+            transform: translate(70%, 0%);/*(vertical,horizontal)*/				
+			   text-align: center;
+            margin: 0;
+            top: 20px;		
+			}
+
+			h5 {
+				position: absolute;
+				left:50%;
+            transform: translate(-55%, 0%);/*(vertical,horizontal)*/				
+            margin: 10;
+            top: 120px;
+			}
+
+         .ano {  
+            width: 260px;
+            margin-left: 16px;
+            height: 30px;
+            line-height: 38px;
+            font-size: 15px;
+         }
+
+         .btnEnviar {
+         	width: 60px;
+            margin-left: 16px;
+            height: 30px;
+            font-size: 15px;
+         }
+
+         h6 {
+				position: absolute;
+				left:50%;
+            transform: translate(-50%, 0%);/*(vertical,horizontal)*/				
+            margin: 10;
+            top: 200px;
+         }
+
+         #menu {
+         	position: absolute;
+		      margin: 0; 
+		      left: 5%;
+		      top: 250px;
+		   }
+
+		   #menu ul li {
+		      margin: 0; 
+		      padding: 0px;
+		      border-bottom: 1px solid #CCC;
+		      text-align: left;
+		      list-style-type: none;
+		   }
+
+		   #menu a:link {
+		      background: #F5F5F5;
+		      color: #666;
+		      font-weight: bold;
+		      text-decoration: none;
+		      padding: 8px;
+		      display: block;
+		   }
+
+		   #menu a:hover {
+		      background: #E5F0FF;
+		      color: #039;
+		   }									
+       			
+			footer{
+				position: absolute;
+				bottom: 0;
+				width: 300px;
+				height: 90px;
+				text-align: center;
+				line-height: 90px;
+				color: #FFF;
+				font-size: 15px;
+			}
+			
+		</style>
+
+   </head>
+
+	<body>
+      <header>
+		   <img src="D:\Projeto Salete\Imagens\logosaletep.png">
+		
+		</header>
+
+	      <h1>
+	      	<a href="file:///D:/Projeto Salete/Home.html">
+               <i class="home"></i><span><img src="D:\Projeto Salete\Imagens\casa.png"><i class="home"></i></span>
+            </a>
+         </h1>
+         <h2>            
+	      	<a href="file:///D:/Projeto Salete/Ramais.htm">
+               <i class="home"></i><span><img src="D:\Projeto Salete\Imagens\contatos.png"><i class="home"></i></span>
+            </a>
+         </h2>
+         <h3>
+	      	<a href="file:///D:/Projeto Salete/">
+               <i class="home"></i><span><img src="D:\Projeto Salete\Imagens\walkietalkie.png"><i class="home"></i></span>
+            </a>                        
+         </h3>
+
+         <h5><form>
+ 
+            <select class="ano">
+         	   <option value="">Indique a opção desejada:</option>
+         		<option value="valor01">2020</option>
+         		<option value="valor02">2021</option>
+         		<option value="valor03">2022</option>
+         		<option value="valor04">Parâmetro Geral</option>
+            </select>
+
+            <button class="btnEnviar">Buscar</button>
+         
+         </form></h5>            
+
+         <h6>
+         <iframe width="1250" height="520" frameborder="0" scrolling="no" src="D:\Projeto Salete\Dados Salete\Indice Preventiva\indice2020.htm"></iframe>
+         </h6>
+
+	         <footer>
+	         	&copy: 2022 - Estamparia Salete
+	         </footer>
+   </body>
+
+</html>
